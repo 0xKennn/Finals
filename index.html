@@ -4,35 +4,37 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Log in Page</title>
-  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="index.css">
 </head>
 <body>
-  <div class="login-container">
-    <img src="./images-login-page/logo.png" alt="Logo" class="logo" />
+  <div class="login-page">
+    <img src="./images-login-page/logo.png" alt="Logo" class="logo">
     <p class="log-in-txt">Log In to your Account</p>
     
     <div class="input-group">
-      <input type="text" placeholder="Enter Email / Phone" />
+      <img src="./images-login-page/account-circle-icon.png" class="account-circle-img">
+      <input type="text" placeholder="Enter Email / Phone">
     </div>
 
     <div class="input-group">
-      <input type="password" placeholder="Enter your Password" />
-      <images src="./images-login-page/visibility-icon.png" alt="Toggle Password Visibility" class="eye-con" />
+      <img src="./images-login-page/password-icon.png" class="password-img">
+      <input type="password" placeholder="Enter your Password">
+      <img src="./images-login-page/visibility-icon.png" class="eye-con">
     </div>
 
-    <div class="options">
-      <label><input type="checkbox" /> Remember Me</label>
+    <div class="remember-forgot">
+      <label><input type="checkbox"> Remember Me</label>
       <a href="#">Forgot Password</a>
     </div>
 
-    <button class="login-btn">Log in</button>
+    <a href="homepage.html"><button class="login-btn">Log in</button></a>
 
     <div class="divider">
-      <hr /><span class="or-txt">or</span><hr />
+      <hr><span class="or-txt">or</span><hr>
     </div>
 
     <p>Do you have an Account?</p>
-    <button class="signup-btn">Sign Up</button>
+    <a href="signup.html"><button class="signup-btn">Sign Up</button></a>
   </div>
 </body>
 </html>

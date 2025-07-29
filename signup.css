@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.signup-page {
+  background: linear-gradient(to bottom, #FFFFFF 40%, #C2D0FF 78%, #044582 100%);
+  text-align: center;
+  width: 440px;
+  height: 956px;
+  border: solid 1px black;
+}
+
+.logo {
+  width: 200px;
+  height: 200px;
+  margin-bottom: -50px;
+  margin-top: 40px;
+}
+
+.signup-txt {
+  margin-bottom: 48px;
+  color: #000;
+  font-size: 26px;
+  font-weight: 700;
+  height: 30px;
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-form p {
+    text-align: start;
+    margin-left: 103px;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+img {
+  width: 24px;
+}
+
+.account-circle-img {
+  margin: 0px 0px -45px 54px;
+}
+
+.location-img {
+  margin: 0px 0px -45px 54px;
+}
+
+.password-img {
+  margin: 0px 0px -45px 54px;
+}
+
+/*.eye-con {
+    margin: 0px 0px 11.5px 344px;
+} */
+
+hr {
+  display: flex;
+  align-items: center;
+  margin: 0px 50px 20px 50px;
+  color: #333;
+  flex: 1;
+  border: none;
+  border-top: 1px solid #555;
+  margin-bottom: 34px;
+}
+
+.terms-txt {
+    margin: 0px 0px 48px -60px;
+}
+
+.signup-btn {
+  width: 250px;
+  height: 50px;
+  padding: 12px;
+  background-color: #044582;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.signin-txt {
+  text-decoration: none;
+  color: black;
+}

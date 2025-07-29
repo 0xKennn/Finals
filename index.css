@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.login-page {
+  background: linear-gradient(to bottom, #FFFFFF 40%, #C2D0FF 78%, #044582 100%);
+  text-align: center;
+  width: 440px;
+  height: 956px;
+  border: solid 1px black;
+}
+
+.logo {
+  width: 200px;
+  height: 200px;
+  margin-bottom: -50px;
+  margin-top: 40px;
+}
+
+.log-in-txt {
+  margin-bottom: 48px;
+  color: #000;
+  font-size: 26px;
+  font-weight: 700;
+  height: 30px;
+}
+
+.input-group {
+  position: relative;
+  margin: 35px 63px ;
+  width: 314px;
+  height: 50px;
+  
+}
+
+.input-group input {
+  width: 259.4px;
+  padding: 12px 40px 12px 15px;
+  border: 1.5px solid #000;
+  border-radius: 30px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.account-circle-img {
+  position: absolute;
+  top: 8px;
+  left: 10px;
+}
+
+.password-img {
+  position: absolute;
+  top: 8px;
+  left: 10px;
+}
+
+.eye-con {
+  position: absolute;
+  right: 15px;
+  top: 12px;
+  cursor: pointer;
+}
+
+.remember-forgot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 500;
+  margin: -30px 63px 60px 63px;
+}
+
+.remember-forgot a {
+  text-decoration: none;
+  color: #000;
+}
+
+.login-btn {
+  width: 250px;
+  height: 50px;
+  padding: 12px;
+  background-color: #044582;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  margin: 34px;
+  color: #333;
+}
+
+.divider hr {
+  flex: 1;
+  border: none;
+  border-top: 1px solid #555;
+}
+
+.or-txt {
+  padding: 0 10px;
+}
+
+.signup-btn {
+  width: 250px;
+  height: 50px;
+  padding: 12px;
+  font-size: 20px;
+  font-weight: 400;
+  background-color: transparent;
+  border: 1.5px solid black;
+  border-radius: 30px;
+  cursor: pointer;
+}

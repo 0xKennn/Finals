@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.home-page {
+  background: linear-gradient(to bottom, #FFFFFF 40%, #C2D0FF 78%, #044582 100%);
+  text-align: center;
+  width: 440px;
+  height: 956px;
+  border: solid 1px black;
+}
