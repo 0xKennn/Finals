@@ -2,9 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile Page</title>
-    <link rel="stylesheet" href="profile.css">
+    <title>Sign Out Confirmation</title>
+    <link rel="stylesheet" href="sign-out.css">
 </head>
 <body>
     <div class="profile-page">
@@ -45,7 +44,25 @@
             <p class="help-txt">Help</p>
         </div>
 
-        <a href="sign-out.html"><button class="sign-out-bttn">Sign Out</button></a>
+        <a href="profile2.html"><button class="sign-out-bttn">Sign Out</button></a>
+    </div>
+    <div class="sign-out-txt">
+        <div class="sign-out-msg">
+            <div class="log-out-txt">
+                <span>Log Out</span>
+                <button class="close-bttn" onclick="window.location.href='profile.html'">&times;</button>
+            </div>
+
+        <hr>
+
+            <div class="sign-out-content">
+                <p>Would you like to Sign Out?</p>
+                <div class="yes-no-bttn">
+                    <a href="index.html"><button class="modal-btn yes">Yes</button></a>
+                    <a href="profile.html"><button class="modal-btn no">No</button></a>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>

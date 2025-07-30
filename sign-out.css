@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+    .sign-out-txt {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 440px;
+        height: 956px;
+        background: rgba(217, 217, 217, 0.2);
+        backdrop-filter: blur(4px);
+        -webkit-backdrop-filter: blur(4px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+        margin: 0 auto;
+        right: 0;
+        bottom: 0;
+    }
+    .sign-out-msg {
+        background: linear-gradient(to bottom, #FFFFFF 40%, #C2D0FF 78%, #C2D0FF 100%);
+        border-radius: 18px;
+        box-shadow: 0 4px 32px rgba(0,0,0,0.18);
+        width: 398px;
+        height: 254px;;
+        padding: 0 0 24px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .log-out-txt {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 18px 18px 0 18px;
+        font-weight: 500;
+        font-size: 24px;
+        font-weight: 500;
+        margin: -10px 0px 0px 24px;
+    }
+    .close-bttn {
+        background: none;
+        border: none;
+        font-size: 22px;
+        cursor: pointer;
+        margin-right: 20px;
+    }
+    .sign-out-content {
+        font-size: 24px;
+        font-weight: 500;
+        padding: 18px 24px 0 24px;
+        text-align: center;
+    
+    }
+    .yes-no-bttn {
+        margin-top: 18px;
+        display: flex;
+        gap: 29px;
+        justify-content: center;
+    }
+    .modal-btn {
+        min-width: 100px;
+        padding: 4px 0;
+        border-radius: 10px;
+        border: 1.5px solid #222;
+        background: rgba(255,255,255,0.2);
+        font-size: 22px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: background 0.2s;
+
+    }
+    .modal-btn:hover {
+        background: rgba(4,69,130,0.08);
+    }
+
+    body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.profile-page {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom, #FFFFFF 40%, #C2D0FF 78%, #044582 100%);
+    text-align: center;
+    width: 440px;
+    height: 956px;
+    border: solid 1px black;
+}
+
+.header-div {
+    display: flex;
+    flex-direction: column;
+    background: #000;
+    width: 100%;
+    height: 381px;
+    color: black
+}
+
+.profile-header {
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+.go-back-img {
+    width: 45px;
+    height: 45px;
+    margin: 66px 0px 0px 35px;
+}
+
+.profile-txt {
+    margin: 66px 0px 0px 93px;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.profile-logo {
+    width: 100px;
+    height: 100px;
+    margin: 37px 0px 0px 170px;
+}
+
+.email-section {
+    display: flex;
+    flex-direction: row;
+}
+
+.drafts-img {
+    width: 24px;
+    height: 24px;
+    margin: 83px 0px 0px 22px;
+}
+
+.email-txt {
+    font-size: 22px;
+    font-weight: 300;
+    margin: 83px 0px 0px 8px;
+}
+
+.email-address {
+    font-size: 22px;
+    font-weight: 300;
+    margin: 83px 0px 0px 17px;
+}
+
+.default-address-section {
+    display: flex;
+    flex-direction: row;
+}
+
+.location-img {
+    width: 16px;
+    height: 24px;
+    margin: 30px 0px 0px 24px;
+}
+
+.address-txt {
+    font-size: 22px;
+    font-weight: 300;
+    margin: 30px 0px 0px 12px;
+}
+
+.default-address {
+    font-size: 22px;
+    font-weight: 300;
+    margin: 30px 0px 0px 82px;
+}
+
+.password-section {
+    display: flex;
+    flex-direction: row;
+}
+
+.password-img {
+    width: 24px;
+    height: 24px;
+    margin: 30px 0px 0px 19px;
+}
+
+.password-txt {
+    font-size: 22px;
+    font-weight: 300;
+    margin: 30px 0px 0px 8px;
+}
+
+.password {
+    font-size: 22px;
+    font-weight: 300;
+    margin: 30px 0px 0px 101px;
+}
+
+.share-section {
+    display: flex;
+    flex-direction: row;
+}
+
+.share-img {
+    width: 24px;
+    height: 24px;
+    margin: 111px 0px 0px 22px;
+}
+
+.share-txt {
+    font-size: 24px;
+    font-weight: 300;
+    margin: 108px 0px 0px 20px;
+}
+
+.help-section {
+    display: flex;
+    flex-direction: row;
+}
+
+.help-img {
+    width: 24px;
+    height: 24px;
+    margin: 30px 0px 0px 22px;
+}
+
+.help-txt {
+    font-size: 24px;
+    font-weight: 300;
+    margin: 26px 0px 0px 20px;
+}
+
+.sign-out-bttn {
+    width: 128px;
+    height: 54px;
+    padding: 12px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 24px;
+    cursor: pointer;
+    font-weight: 500;
+    margin: 78px 0px 0px -275px;
+}
+
+hr {
+    width: 100%;
+    border: none;
+    border-top: 1px solid #555;
+}
