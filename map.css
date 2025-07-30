@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  
+}
+
+.map-container {
+  text-align: center;
+  width: 440px;
+  height: 956px;
+  border: solid 1px black;
+  background-image: url('./images-destination-page/map3.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.cancel-img {
+  cursor: pointer; 
+  margin: 18px 0px 0px 381px;
+  margin-bottom: 10px;
+}
+
+.search-bar {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 0px 0px 60px;
+}
+
+.search-bar input {
+  width: 263px;
+  padding: 12px 40px 12px 15px;
+  border: 1.5px solid #000;
+  border-radius: 30px;
+  font-size: 20px;
+  text-align: center;
+  background: transparent;
+}
+
+.search-img {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  margin: 15px 0px 0px 278px;
+}
+
+.explore-img {
+  margin-top: 420px;
+}
+
+.set-destination-bttn {
+  width: 208px;
+  height: 54px;
+  padding: 12px;
+  background-color: #044582;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 250px;
+}

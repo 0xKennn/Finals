@@ -150,10 +150,29 @@ body {
   text-align: center;
 }
 
+.location-img {
+  margin-left: 15px;
+}
+
 .destination-txt {
   font-size: 20px;
-  font-weight: 100;
-  margin: 0px 14px 0px 45px;
+  font-weight: 400;
   text-decoration: none;
   color: #000;
+  margin-left: 10px;
+}
+
+.calculate-bttn {
+  width: 179px;
+  height: 54px;
+  padding: 12px;
+  background-color: #044582;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 30px;
 }
