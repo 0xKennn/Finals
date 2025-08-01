@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
-    <link rel="stylesheet" href="homepage.css">
+    <link rel="stylesheet" href="calculate.css">
 </head>
 <body>
     <div class="home-page">
@@ -38,22 +38,32 @@
             </div>
 
             <div class="select-destination">
-                <a href="map.html" class="destination-txt">—— Select Destination ——</a>
-                <a href="map.html"><img src="./images-home-page/dropdown-img.png" class="dropdown-img"></a>
+                <img src="./images-home-page/distance.png" class="location-img">
+                <a href="index.css" class="destination-txt">Cebu Roosevelt Memorial Co...</a>
+            </div>
+
+            <button class="calculate-bttn">Calculate</button>
+
+        </div>
+
+        <div class="calculate-div">
+            <div class="calculate-msg">
+                <div class="header-txt">
+                    <button class="close-bttn" onclick="window.location.href='homepage.html'">&times;</button>
+                    <span>Fare Details</span>
+                </div>
+
+                <div class="fare-details">
+                    <img src="./images-home-page/tricycle-img.png" class="tri2-img">
+                    <hr>
+                    <p class="fee-txt">₱20.00</p>
+                    <hr>
+                    <p class="distance-txt">4.5km</p>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
 
-    <script>
-            document.querySelectorAll('.vehicle').forEach(function(vehicle) {
-                vehicle.addEventListener('click', function() {
-                    document.querySelectorAll('.vehicle').forEach(function(v) {
-                    v.classList.remove('selected');
-                    });
-                    this.classList.add('selected');
-                });
-            });
-    </script>
-        
+    </div>
 </body>
 </html>

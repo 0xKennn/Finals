@@ -68,7 +68,7 @@ body {
   text-align: center;
 }
 
-.vehicle1 {
+.vehicle.Tricycle {
   display: flex;
   flex-direction: row;
   border: 1px solid #000;
@@ -85,7 +85,7 @@ body {
   margin: 0px 4px 0px 4px; 
 }
 
-.vehicle2 {
+.vehicle.Jeepney {
   display: flex;
   flex-direction: row;
   border: 1px solid #000;
@@ -102,7 +102,7 @@ body {
   margin: 0px 27.5px 0px 21px;
 }
 
-.vehicle3 {
+.vehicle.Taxi {
   display: flex;
   flex-direction: row;
   border: 1px solid #000;
@@ -119,7 +119,7 @@ body {
   margin: 0px 52.5px 0px 35px;
 }
 
-.vehicle4 {
+.vehicle.Bus {
   display: flex;
   flex-direction: row;
   border: 1px solid #000;
@@ -175,4 +175,25 @@ body {
   font-size: 24px;
   font-weight: 500;
   margin-top: 30px;
+}
+
+.vehicle:hover {
+  background-color: #C2D0FF;
+  color: #CBA1FF;
+}
+
+.vehicle-txt {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.vehicle.selected {
+  background-color: #C2D0FF;
+  color: #044582;
+  border: 2px solid #044582;
+  box-shadow: 0 2px 8px rgba(4,69,130,0.08);
+}
+
+.vehicle.selected .vehicle-txt {
+  color: #044582;
 }

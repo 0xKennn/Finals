@@ -150,21 +150,31 @@ body {
   text-align: center;
 }
 
+.location-img {
+  margin-left: 15px;
+}
+
 .destination-txt {
   font-size: 20px;
-  font-weight: 100;
-  margin: 0px 14px 0px 45px;
+  font-weight: 400;
   text-decoration: none;
   color: #000;
+  margin-left: 10px;
 }
 
-.dropdown-img {
-  margin-top: 10px;
-}
-
-.vehicle:hover {
-  background-color: #C2D0FF;
-  color: #CBA1FF;
+.calculate-bttn {
+  width: 179px;
+  height: 54px;
+  padding: 12px;
+  background-color: #044582;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 30px;
 }
 
 .vehicle-txt {
@@ -172,13 +182,82 @@ body {
   font-weight: 400;
 }
 
-.vehicle.selected {
-  background-color: #C2D0FF;
-  color: #044582;
-  border: 2px solid #044582;
-  box-shadow: 0 2px 8px rgba(4,69,130,0.08);
+.calculate-div {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 440px;
+    height: 956px;
+    background: rgba(217, 217, 217, 0.2);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    margin: 0 auto;
+    right: 0;
+    bottom: 0; 
 }
 
-.vehicle.selected .vehicle-txt {
-  color: #044582;
+.calculate-msg {
+    background: linear-gradient(to bottom, #D9D9D9 0%, #C2D0FF 50%, #044582 100%);
+    border-radius: 18px;
+    box-shadow: 0 4px 32px rgba(0,0,0,0.18);
+    width: 398px;
+    height: 254px;;
+    padding: 0 0 24px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+.header-txt {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 18px 18px 0 18px;
+    font-weight: 500;
+    font-size: 24px;
+    margin-top: -10px;
+}
+.close-bttn {
+    background: none;
+    border: none;
+    font-size: 22px;
+    cursor: pointer;
+    margin-left: 360px;
+}
+.fare-details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 700;
+    width: 345px;
+    height: 91px;
+    border: solid 1px #222;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+.fare-details hr {
+  height: 60px;
+  border-left: solid 1px black;
+  margin-left: 10px;
+}
+
+.tri2-img {
+  width: 100px;
+  height: 60px;
+}
+
+.fee-txt {
+  margin-right: 20px;
+}
+
+.distance-txt {
+  margin-right: 20px;
+}
+
+

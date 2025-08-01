@@ -17,22 +17,22 @@
         <p class="readex-pro-txt">Select Vehicle</p>
 
         <div class="vehicle-container">
-            <div class="vehicle1">
+            <div class="vehicle Tricycle selected">
                 <img src="./images-home-page/tricycle-img.png" class="tricycle-img">
                 <p class="vehicle-txt">Tricycle</p>
             </div>
 
-            <div class="vehicle2">
+            <div class="vehicle Jeepney">
                 <img src="./images-home-page/jeep-img.png" class="jeep-img">
                 <p class="vehicle-txt">Jeepney</p>
             </div>
 
-            <div class="vehicle3">
+            <div class="vehicle Taxi">
                 <img src="./images-home-page/taxi-img.png" class="taxi-img">
                 <p class="vehicle-txt">Taxi</p>
             </div>
 
-            <div class="vehicle4">
+            <div class="vehicle Bus">
                 <img src="./images-home-page/bus-img.png" class="bus-img">
                 <p class="vehicle-txt">Bus</p>
             </div>
@@ -42,11 +42,20 @@
                 <a href="map.html" class="destination-txt">Cebu Roosevelt Memorial Co...</a>
             </div>
 
-            <a href="#"><button class="calculate-bttn">Calculate</button></a>
+            <a href="calculate.html"><button class="calculate-bttn">Calculate</button></a>
 
         </div>
-
-
     </div>
+
+    <script>
+            document.querySelectorAll('.vehicle').forEach(function(vehicle) {
+                vehicle.addEventListener('click', function() {
+                    document.querySelectorAll('.vehicle').forEach(function(v) {
+                    v.classList.remove('selected');
+                    });
+                    this.classList.add('selected');
+                });
+            });
+    </script>
 </body>
 </html>
